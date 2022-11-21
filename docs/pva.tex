@@ -1,5 +1,6 @@
-\documentclass[dutch,11pt]{article}
-\usepackage[dutch]{babel}
+%!TEX program = xelatex
+\documentclass[11pt]{article}
+
 \input{structure.tex}
 
 \begin{document}
@@ -9,14 +10,14 @@
 \author{
     \LARGE G, Adamowicz, G, Todorević, \\
 	\LARGE S, Karaduman, R, Roos \\ 
-    \textsc{\small Klant: Mr. Fix} \\
+    \textsc{\small client: Michiel Ybema - MrFix} \\
 }
 
 \title{
 	\vspace{80pt}
 	\rule{\linewidth}{0.7pt}\\
 	\vspace{7pt}
-	\huge{Plan van Aanpak}\\
+	\huge{Plan of Approach}\\
 	\rule{\linewidth}{0.8pt}\\
 	\vspace{30pt}
 }
@@ -35,18 +36,77 @@
 \end{titlepage}
 
 \tableofcontents
-
-\section{Inleiding}
-\section{Doel}
-\section{Doelgroep}
-\section{User stories}
-\subsection{Planning}
-\section{Wireframe}
-\section{Technische specificaties}
-\section{Database ontwerp}
-
 \newpage
 
-\printbibliography[heading=bibintoc,title={Bronvermelding}]
+\section{Introduction}
+
+This document is part of the project executed by students at the Bit Academy in Amsterdam, 
+at the request of Michiel Ybema, representative of mrFix. MrFix is a company aiming to 
+easily connect customers in need of home repair or improvement with trustworthy
+professionals. The project's duration is one week. This project's mission is to:
+
+\begin{enumerate}
+	\item Analyse the various useflows within mrFix's services, and their competitors and 
+		come up with a preliminary design for a mobile app.
+	\item Build a minimal working prototype for a mobile app suitable for the business of 
+		mrFix based on this design.
+\end{enumerate}
+
+Throughout this document the company of mrFix may be revered to as \textit{client}, users 
+of the service as \textit{customers} and the people performing the jobs as 
+\textit{fixers}.
+
+\section{Prototype requirements}
+
+The following requirements need to be taken into consideration when designing the 
+prototype: 
+
+\begin{itemize}
+	\item Fixers need a publicly visible profile.
+	\item The app needs to include an intuitive messaging system for communication between 
+		customer and fixer.
+	\item Customers need a clear and accurate quote, or at least estimation, for the cost 
+		of the job.
+	\item The app needs to facilitate making appointments between customers and fixers.
+	\item Customers need certainty that the job will be done right the first time.
+	\item Customers need certainty that the invoice matches the actual work done.
+	\item The app needs to handle payments from the customer to the fixer.
+	\item Customers need to be able to write reviews about their fixer.
+\end{itemize}
+
+\section{Project goals}
+
+The client has voiced an interest in the following points: 
+
+\begin{itemize}
+	\item An overview of rival apps.
+	\item Clear documentation provided along with the prototype.
+	\item An overview of industry standard technologies useful for building the desired 
+		product.
+	\item An overview of third party Software-as-a-service providers and/or open source 
+		libraries to use.
+\end{itemize}
+
+\section{Target audience}
+
+The target audience for mrFix's service is primarily well-off people with limited time 
+and/or DIY skills.
+
+\newpage
+\section{Planning}
+
+The project kicked of on Monday, November 21 and will conclude on Friday 25th. 
+
+\begin{table}[h]
+	\begin{tabular}{llll} 
+		\toprule
+		\textbf{Day 1} & exploratory research \\
+		\textbf{Day 2} & UML useflow charts, \\
+					   & job posting design  \\
+		\textbf{Day 3} & fixer profile design \\
+		\textbf{Day 4} & messaging design \\
+		\textbf{Day 5} & demo \\
+	\end{tabular}
+\end{table}
 
 \end{document}
