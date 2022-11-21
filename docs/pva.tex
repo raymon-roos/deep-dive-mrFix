@@ -92,15 +92,65 @@ The client has voiced an interest in the following points:
 The target audience for mrFix's service is primarily well-off people with limited time 
 and/or DIY skills.
 
-\newpage
+\section{User stories}
+
+Each of these \textit{user stories} represent a feature or scenario that the customers 
+would reasonably expect to be provided for in the app. 
+
+\begin{table}[h]
+	\begin{tabular}{llll} 
+		\textbf{As a (role):} & \textbf{In order to:} & \textbf{I want:} \\
+		\toprule
+		client & 
+			\begin{tabular}{@{}c@{}}offer the right experience \\
+			to customers and fixers \end{tabular}  &
+			\begin{tabular}{@{}c@{}}to have features tailored separately \\
+			for fixers and customers \end{tabular} \\ 
+		\midrule
+		client & 
+			\begin{tabular}{@{}c@{}}offer the right experience \\
+			to customers and fixers \end{tabular}  &
+			\begin{tabular}{@{}c@{}}to match fixers to customers \\
+			effectively \end{tabular} \\ 
+		\midrule
+		customer & find a suitable fixer  &
+			\begin{tabular}{@{}c@{}}to be able to create a post \\
+			detailing the job I need fixed \end{tabular} \\
+		\midrule
+		Either fixer or customer & prevent missing appointments &
+			\begin{tabular}{@{}c@{}}to be able to make appointments \\
+				in an online calendar \end{tabular} \\ 
+		\midrule
+		Either fixer or customer & have clarity around payments &
+			\begin{tabular}{@{}c@{}}to be able to submit and view \\
+				quotes and cost estimations \end{tabular} \\ 
+		\midrule
+		Either fixer or customer & communicate clearly &
+			\begin{tabular}{@{}c@{}}to have a messaging system to \\
+			talk directly to my fixer/customer \end{tabular} \\ 
+		\midrule
+		customer & 
+			\begin{tabular}{@{}c@{}}have insight in my \\
+			previous job postings \end{tabular}  &
+			\begin{tabular}{@{}c@{}}to have an overview of \\
+			previously completed jobs \end{tabular} \\ 
+		\midrule
+		fixer & have insight in my job history &
+			\begin{tabular}{@{}c@{}}to have an overview of \\
+			previously completed jobs \end{tabular} \\ 
+	\end{tabular}
+\end{table}
+
 \section{Planning}
 
 The project kicked of on Monday, November 21 and will conclude on Friday 25th. 
 
 \begin{table}[h]
+	\centering
 	\begin{tabular}{llll} 
 		\toprule
-		\textbf{Day 1} & exploratory research \\
+		\textbf{Day 1} & exploratory research, \\
+					   & write plan of approach, \\
 		\textbf{Day 2} & UML useflow charts, \\
 					   & job posting design  \\
 		\textbf{Day 3} & fixer profile design \\
@@ -108,5 +158,41 @@ The project kicked of on Monday, November 21 and will conclude on Friday 25th.
 		\textbf{Day 5} & demo \\
 	\end{tabular}
 \end{table}
+
+\section{wireframe}
+
+\begin{figure}[h]%
+    \centering
+    \subfloat[\centering home]{{\includegraphics[angle=-90,width=6cm]{figures/home_pagina.jpg} }}%
+    \qquad
+    \subfloat[\centering job history]{{\includegraphics[angle=-90,width=6cm]{figures/booking.jpg} }}%
+
+    \subfloat[\centering messaging]{{\includegraphics[angle=-90,width=6cm]{figures/messaging.jpg} }}%
+    \qquad
+    \subfloat[\centering profile]{{\includegraphics[angle=-90,width=6cm]{figures/profile.jpg} }}%
+    \caption{Hand drawn wireframes of various sections of the app}%
+    \label{fig:wireframes}%
+\end{figure}
+
+\section{Technical specifications}
+
+Technologies that will likely be used to deliver the prototype are
+PHP, HTML, JavaScript, CSS. For installing third-party libraries composer 
+and/or NPM will be used. Third party tools for building effective graphical user
+interfaces will likely include TailwindCSS and Bootstrap.
+
+More details on each of these can be found here: 
+
+\begin{table}[t]
+	\centering
+	\begin{tabular}{llll} 
+		\toprule
+		\textbf{Composer} & \url{https://getcomposer.org/} \\
+		\textbf{NPM} & \url{https://www.npmjs.com/}\\
+		\textbf{TailwindCSS} & \url{https://tailwindcss.com/} \\
+		\textbf{Bootstrap} & \url{https://getbootstrap.com/} \\
+	\end{tabular}
+\end{table}
+
 
 \end{document}
