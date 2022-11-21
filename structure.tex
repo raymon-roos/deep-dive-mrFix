@@ -1,0 +1,120 @@
+%----------------------------------------------------------------------------------------
+%	FONTS AND INPUT ENCODING
+%----------------------------------------------------------------------------------------
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Use 8-bit encoding
+\usepackage{fourier} % Use the Adobe Utopia font for the document
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% \usepackage{amsmath, amsfonts, amsthm} % Math packages
+% \usepackage{listings} % Code listings, with syntax highlighting
+\usepackage[dutch]{babel} % dutch language hyphenation
+
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\DeclareLanguageMapping{dutch}{dutch-apa}
+\addbibresource{references.bib}
+
+% \usepackage{natbib}
+
+\usepackage{wrapfig} % Wrap text around figures
+\usepackage{booktabs} % Required for prettier tables
+
+% \numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+% \numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+% \numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+% none of the above seem to actually work
+
+% \setlength\parindent{0pt} % Removes all indentation from paragraphs
+% \setlength\parskip{1em plus 0.1em minus 0.2em} % Put a blank line between paragraphs
+% Kinda messes with the toc layout and with headings
+
+\widowpenalties 1 10000 % Don't spread a paragraph across two pages but start it on the second page instead (no bastards) 
+\raggedbottom
+
+\usepackage{enumitem} % Required for list customisation
+\setlist{noitemsep} % No spacing between list items
+
+\usepackage{csquotes}
+
+\usepackage{setspace}
+
+\newcommand{\comment}[1]{} %define a new command for commenting out chunks of latex code
+
+%----------------------------------------------------------------------------------------
+%	GRAPHICS
+%----------------------------------------------------------------------------------------
+\usepackage{float} % makes stuff float
+\usepackage{adjustbox} % lets us put stuff in a box and then manipulate the box
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{{figures/}{./}} % Specifies where to look for included images (trailing slash required)
+
+% \usepackage{pgf-pie} % Package for making pie charts
+% \usepackage{pdfpages} % Accomplished just as well with the graphicx package. 
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT MARGINS
+%----------------------------------------------------------------------------------------
+\usepackage{geometry} % Required for adjusting page dimensions and margins
+\geometry{
+	paper=a4paper, % Paper size, change to letterpaper for US letter size
+	top=2.5cm, % Top margin
+	bottom=3cm, % Bottom margin
+	left=3cm, % Left margin
+	right=3cm, % Right margin
+	headheight=0.75cm, % Header height
+	footskip=1.5cm, % Space from the bottom margin to the baseline of the footer
+	headsep=0.75cm, % Space from the top margin to the baseline of the header
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	SECTION TITLES
+%----------------------------------------------------------------------------------------
+% \usepackage{sectsty} % Allows customising section commands
+
+% % \chaptertitlefont{\centering\normalfont\scshape\bfseries}
+% \allsectionsfont{\sffamily}
+% \sectionfont{\centering\normalfont\scshape\bfseries} % \section{} styling
+% \subsectionfont{\sffamily\nohang\raggedright } % \subsection{} styling
+% \subsubsectionfont{\normalfont\itshape\nohang\raggedright} % \subsubsection{} styling
+% % \paragraphfont{\normalfont\scshape} % \paragraph{} styling
+% % \subparagraphfont{\hspace*{5em}}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+% \usepackage{scrlayer-scrpage} % Required for customising headers and footers
+
+% \ohead*{} % Right header
+% \ihead*{} % Left header
+% \chead*{} % Centre header
+% 
+% \ofoot*{} % Right footer
+% \ifoot*{} % Left footer
+% \cfoot*{\pagemark} % Centre footer
+
+%----------------------------------------------------------------------------------------
+%	SUBFILES
+%----------------------------------------------------------------------------------------
+% \usepackage{subfiles}
+
+%----------------------------------------------------------------------------------------
+%	URLS
+%----------------------------------------------------------------------------------------
+% \usepackage{url}
+\usepackage{xurl} % Tells latex how to line-break a url 
+\usepackage{hyperref} % Allows for clickable and configurable urls
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    menucolor=black,
+    urlcolor=cyan
+    }
+\urlstyle{same}
+
+
