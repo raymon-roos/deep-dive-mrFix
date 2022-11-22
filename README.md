@@ -14,6 +14,12 @@ come up with a suitable design for a mobile app for mrFix
 
 ## Development: 
 
-1. clone this repository to a location of your choice
+1. clone this repository to a location of your choosing
 2. `npm install`
 3. `npm run tails` to launch the build script
+
+## Dependencies
+
+- [NPM](https://www.npmjs.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Bootstrap](https://getbootstrap.com/)
