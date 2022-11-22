@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+        @apply bg-mrfix_bg w-screen h-screen
+    }
+}
