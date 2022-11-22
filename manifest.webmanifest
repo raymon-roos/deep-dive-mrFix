@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "resources/mrfix-logo-en.svg",
+      "src": "src/resources/mrfix-logo-en.svg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/svg"
     }
   ],
   "name": "mrFix PWA",
