@@ -1,3 +1,7 @@
+# NOTE: this is the public-facing branch of the project
+
+contents of this branch can be viewed online at https://raymanovich.github.io
+
 # Welcome to the mrFix mockup prototype project
 
 MrFix is a company providing a service where you can post job listings for any work in and 
