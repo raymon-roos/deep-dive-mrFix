@@ -1,0 +1,16 @@
+{
+  "background_color": "purple",
+  "description": "Testing PWA for mrFix",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "resources/mrfix-logo-en.svg",
+      "sizes": "150x73",
+      "type": "image/png"
+    }
+  ],
+  "name": "mrFix PWA",
+  "short_name": "mrFix",
+  "start_url": "src/index.html"
+}
+
