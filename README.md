@@ -7,10 +7,10 @@ come up with a suitable design for a mobile app for mrFix
 
 ## Meet the team
 
-> [Gilbert Adamowicz](https://github.com/GilbertAdamowicz),
-> [Gio Todorević](https://github.com/Ssteengohan),
-> [Sezgin Karaduman](https://github.com/Sezgin3880),
-> [Raymon Roos](https://github.com/Raymanovich)
+> - [Gilbert Adamowicz](https://github.com/GilbertAdamowicz),
+> - [Gio Todorević](https://github.com/Ssteengohan),
+> - [Sezgin Karaduman](https://github.com/Sezgin3880),
+> - [Raymon Roos](https://github.com/Raymanovich)
 
 ## Development: 
 
