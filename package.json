@@ -17,5 +17,8 @@
     "app"
   ],
   "author": "",
-  "license": "GPL-2.0-only"
+  "license": "GPL-2.0-only",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
