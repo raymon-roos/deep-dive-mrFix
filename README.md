@@ -1,6 +1,7 @@
 # NOTE: this is the public-facing branch of the project
 
-contents of this branch can be viewed online at https://raymanovich.github.io
+contents of this branch can be viewed online at:
+> https://raymanovich.github.io/deep-dive-mrFix/src/index.html
 
 # Welcome to the mrFix mockup prototype project
 
