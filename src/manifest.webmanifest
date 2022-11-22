@@ -5,7 +5,7 @@
   "icons": [
     {
       "src": "resources/mrfix-logo-en.svg",
-      "sizes": "150x73",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
