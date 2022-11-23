@@ -29,7 +29,8 @@
     <div class="w-screen h-min">
       <svg viewBox="0 0 1440 320" class="absolute z-0">
         <path fill="#766658" fill-opacity="1"
-          d="M0,96L26.7,101.3C53.3,107,107,117,160,149.3C213.3,181,267,235,320,256C373.3,277,427,267,480,234.7C533.3,203,587,149,640,128C693.3,107,747,117,800,138.7C853.3,160,907,192,960,181.3C1013.3,171,1067,117,1120,101.3C1173.3,85,1227,107,1280,128C1333.3,149,1387,171,1413,181.3L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
+          d="M0,96L26.7,101.3C53.3,107,107,117,160,149.3C213.3,181,267,235,320,256C373.3,277,427,267,480,234.7C533.3,203,587,149,640,128C693.3,107,747,117,800,138.7C853.3,160,907,192,960,181.3C1013.3,171,1067,117,1120,101.3C1173.3,85,1227,107,1280,128C1333.3,149,1387,171,1413,181.3L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+        </path>
       </svg>
     </div>
 
@@ -81,7 +82,43 @@
 
   </main>
 
-  <?php require('../components/navbar.html'); ?>
+  <div
+    class="bg-mrfix_brown w-full  h-16 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-40 border-t border-gray-99">
+    <a href="">
+      <span
+        class="px-2 py-1 cursor-pointer  hover:scale-125 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
+        <i class="w-8 fas fa-envelope p-1">
+        </i>
+        <img src="../icons/request.svg" alt="" class="w-8 fill-white">
+      </span>
+    </a>
+    <a href="">
+      <span
+        class="px-2 py-1 cursor-pointer hover:scale-125 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
+        <i class="w-8 fas fa-envelope p-1">
+        </i>
+        <img src="../icons/booking.svg" alt="" class="w-8">
+      </span>
+    </a>
+    <a href="">
+      <span
+        class="px-2 py-1 cursor-pointer hover:scale-125  hover:text-gray-700 text-sm  flex flex-col items-center text-center">
+        <i class="w-8 fas fa-envelope p-1">
+        </i>
+        <img src="../icons/chat.svg" alt="" class="w-8">
+      </span>
+    </a>
+    <a href=" ">
+      <span
+        class="px-2 py-1 cursor-pointer hover:scale-125  hover:text-gray-700 text-sm  flex flex-col items-center text-center">
+        <i class="w-8 fas fa-envelope p-1">
+        </i>
+        <img src="../icons/profile.svg" alt="" class="w-8">
+      </span>
+    </a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
 </body>
 
 </html>
