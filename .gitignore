@@ -2,6 +2,5 @@
 *.run.xml
 *.synctex.gz
 *.fls
-dist/*
 node_modules/
 vendor/

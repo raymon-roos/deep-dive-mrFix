@@ -6,20 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="../../manifest.webmanifest" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'mrfix_brown': '#b19982',
-            'mrfix_bg': '#f6f6f6',
-          },
-        },
-      },
-      plugins: [],
-    }
-  </script>
+  <link rel="stylesheet" href="../../dist/output.css" />
 </head>
 
 <body>
@@ -53,24 +40,20 @@
   <main class="flex flex-col justify-between items-start my-4">
     <h6 class="font-bold m-8">Personal Information</h6>
 
-    <form class="flex flex-row justify-between items-center w-2/3 px-10 pb-8 bg-white rounded-md">
-      <div class="flex flex-col justify-evenly min-w-max h-1/2">
+    <form class="flex flex-col justify-between items-center flex-wrap w-full px-10 pb-8 bg-white rounded-md">
         <label for="phone" class="font-bold">Phone number</label>
-        <label for="email" class="font-bold">Email</label>
-        <label for="phone_input" class="font-bold">First name</label>
-        <label for="surname" class="font-bold">Surname</label>
-      </div>
-      <div class="flex flex-col justify-evenly items-end">
         <input type="tel" name="phone" value="" id="phone" class="rounded-md border-solid border-2">
+        <label for="email" class="font-bold">Email</label>
         <input type="text" name="email" value="" id="email" class="rounded-md border-solid border-2">
+        <label for="phone_input" class="font-bold">First name</label>
         <input type="text" name="first_name" value="" id="first_name" class="rounded-md border-solid border-2">
+        <label for="surname" class="font-bold">Surname</label>
         <input type="text" name="surname" value="" id="phone_input" class="rounded-md border-solid border-2">
-      </div>
     </form>
 
     <h6 class="font-bold m-8">Preferences</h6>
 
-    <form class="flex flex-row justify-evenly items-center w-2/3 px-4 pb-6 bg-white rounded-md">
+    <form class="flex flex-row justify-evenly items-center w-full px-4 pb-6 bg-white rounded-md">
       <div class="flex flex-col">
         <label for="language" class="font-bold">Language</label>
         <label for="darkmode" class="font-bold">Darkmode</label>
