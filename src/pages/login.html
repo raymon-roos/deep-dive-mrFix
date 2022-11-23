@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="manifest" href="../../manifest.webmanifest" />
+  <link rel="stylesheet" href="../../dist/output.css" />
+  <script src="../login.js"></script>
+</head>
+
+<body>
+  <section class="container h-screen">
+    <div class="h-fit ">
+      <img src="../icons/mrfix.png" alt="mrfix">
+    </div>
+    <form name="login" method="post" 
+            class="md:w-8/12 lg:w-5/12 lg:ml-20 px-4 py-6">
+      <!-- Email input -->
+      <div class="mb-6">
+        <input type="text" name="email"
+          class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-[#b19983] focus:outline-none"
+          placeholder="Email address" />
+      </div>
+
+      <!-- Password input -->
+      <div class="mb-6">
+        <input name="pass" type="password"
+          class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-[#b19983] focus:outline-none"
+          placeholder="Password" />
+      </div>
+
+      <!-- Submit button -->
+      <button type="button" onclick="validateForm()"
+        class="inline-block px-7 py-3 bg-mrfix_brown text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out w-full mb-6"
+        data-mdb-ripple="true" data-mdb-ripple-color="light">
+        Sign in
+      </button>
+
+      <!-- forgot password? -->
+      <div class="text-center mb-4">
+        <a href="#!"
+          class="inline-block px-7 py-3 bg-black text-mrfix_brown font-medium text-sm leading-snug uppercase rounded-full shadow-md hover:bg-white hover:shadow-lg  focus:bg-white focus:text-black focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out w-full">Forgot
+          your password?</a>
+      </div>
+
+
+      <div
+        class="flex items-center my-6 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
+        <p class="text-center font-semibold mx-4 mb-0">OR</p>
+      </div>
+
+      <div class="flex justify-between items-center">
+        <a class="flex justify-center items-center px-4 w-1/2 h-14 mr-2 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+          style="background-color: #3b5998" href="#!" role="button" data-mdb-ripple="true"
+          data-mdb-ripple-color="light">
+          <!-- Facebook -->
+          <svg viewBox="0 0 320 512" class="w-3.5 h-3.5 mr-2">
+            <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path fill="currentColor"
+              d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+          </svg>Continue with Facebook
+        </a>
+        <a class="flex justify-center items-center px-4 w-1/2 h-14 ml-2 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+          style="background-color: red" href="#!" role="button" data-mdb-ripple="true" data-mdb-ripple-color="light">
+          <!-- Twitter -->
+          <svg viewBox="0 0 488 512" class="w-3.5 h-3.5 mr-2">
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path fill="currentColor"
+              d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+          </svg>Continue with Google
+        </a>
+      </div>
+
+    </form>
+  </section>
+</body>
+
+</html>
