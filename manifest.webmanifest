@@ -12,5 +12,5 @@
   ],
   "name": "mrFix PWA",
   "short_name": "mrFix",
-  "start_url": "src/index.html"
+  "start_url": "src/pages/index.html"
 }
