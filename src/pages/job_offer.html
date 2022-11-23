@@ -5,7 +5,6 @@
   <title></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="../manifest.webmanifest" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -23,22 +22,16 @@
 </head>
 
 <body class="w-screen h-screen bg-mrfix_bg">
+    <h1 class="mx-auto w-max font-bold my-4">What sort of fixer do you need? </h1>
 
-  <div class="flex flex-col justify-evenly items-center w-full h-full">
-    <div class="flex bg-red-600 w-1/3 h-1/4 justify-center items-center rounded-2xl">
-      <a href="home.html" class="flex justify-center items-center w-full h-full">
-        <h1> hello, mrFix! </h1>
-      </a>
-    </div>
-
-    <div class="flex bg-red-600 w-1/3 h-1/4 justify-center items-center rounded-2xl">
-      <a href="profile.html" class="flex justify-center items-center w-full h-full">
-        <h1>to the profile page</h1>
-      </a>
-    </div>
-  </div>
-
-  <div></div>
+    <main class="grid grid-cols-2 gap-y-8 justify-items-center bg-mrfix_bg">
+     <div class="flex justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">painter</div> 
+     <div class="flex justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">electrician</div> 
+     <div class="flex justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">plumber</div> 
+     <div class="flex justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">handyman</div> 
+     <div class="flex justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">gardener</div> 
+     <div class="flex justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">other</div> 
+    </main>
 
   <div
     class="bg-mrfix_brown w-full  h-16 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-40 border-t border-gray-99">
@@ -75,7 +68,6 @@
       </span>
     </a>
   </div>
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 </body>
 
