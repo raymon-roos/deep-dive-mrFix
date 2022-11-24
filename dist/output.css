@@ -706,6 +706,14 @@ body {
   margin-bottom: 6rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -896,6 +904,10 @@ body {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded-md {
