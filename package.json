@@ -19,6 +19,7 @@
   "author": "",
   "license": "GPL-2.0-only",
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "workbox-cli": "^6.5.4"
   }
 }
