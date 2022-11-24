@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tails": "./node_modules/.bin/tailwindcss -i src/css/input.css -o dist/output.css --watch"
+    "tails": "./node_modules/.bin/tailwindcss -i src/css/input.css -o dist/output.css --watch",
+	"build": "./node_modules/.bin/tailwindcss -i src/css/input.css -o dist/output.css && npx workbox generateSW workbox-config.js"
   },
   "keywords": [
     "prototype",
