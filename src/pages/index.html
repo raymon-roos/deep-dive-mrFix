@@ -5,29 +5,15 @@
   <title></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="../manifest.webmanifest" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'mrfix_brown': '#b19982',
-            'mrfix_bg': '#f6f6f6',
-          },
-        },
-      },
-      plugins: [],
-    }
-  </script>
+  <link rel="manifest" href="../../manifest.webmanifest" />
+  <link rel="stylesheet" href="../../dist/output.css" />
 </head>
 
 <body class="w-screen h-screen bg-mrfix_bg">
-
   <div class="flex flex-col justify-evenly items-center w-full h-full">
     <div class="flex bg-red-600 w-1/3 h-1/4 justify-center items-center rounded-2xl">
-      <a href="another_page.html" class="flex justify-center items-center w-full h-full">
-        <h1> hello, mrFix! </h1>
+      <a href="job_offer.html#screen1" class="flex justify-center items-center w-full h-full">
+        <h1>Request a fixer</h1>
       </a>
     </div>
 
@@ -40,9 +26,9 @@
 
   <div></div>
 
-  <div
+  <footer
     class="bg-mrfix_brown w-full  h-16 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-40 border-t border-gray-99">
-    <a href="">
+    <a href="job_offer.html#screen1">
       <span
         class="px-2 py-1 cursor-pointer  hover:scale-125 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
         <i class="w-8 fas fa-envelope p-1">
@@ -74,7 +60,7 @@
         <img src="../icons/profile.svg" alt="" class="w-8">
       </span>
     </a>
-  </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 </body>
