@@ -898,6 +898,10 @@ body {
   row-gap: 2rem;
 }
 
+.justify-self-end {
+  justify-self: end;
+}
+
 .overflow-y-scroll {
   overflow-y: scroll;
 }
@@ -945,6 +949,10 @@ body {
 
 .border-solid {
   border-style: solid;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-mrfix_dark {
