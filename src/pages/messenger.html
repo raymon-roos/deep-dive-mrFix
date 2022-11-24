@@ -22,21 +22,56 @@
   </script>
 </head>
 <body>
-    <div class="flex justify-between w-full h-1/3 p-4 z-10">
+	<!-- This is the top navbar -->
+    <div class="flex justify-between h-1/3 p-4 z-10 bg-mrfix_brown">
 		<a href="./message.html">
 		  <span><img src="../icons/back_arrow_black.svg" alt="" class="w-8"></span></a>
 		<a class="text-black" href="#">Duncan</a>
 		<a href="#">
 		  <span><img src="../icons/more_options_vertical.svg" alt="" class="w-8"></span></a>
 	  </div>
-  
+
+  <!-- This is the text bubbels -->
+  <div class="flex flex-wrap">
+	<div class="basis-2/3 rounded-lg h-10 bg-green-200 relative mt-4">
+		<p class="ml-2">Ik ben er over 10 minuten</p>
+		<p class="absolute bottom-0 right-0 mr-2 mb-1">18:03</p>
+	</div>
+	<div class="flex justify-end w-full">
+		<div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+			<p class="ml-1">Perfect dankjewel voor dit communiceren</p>
+			<p class="absolute bottom-0 right-0 mr-4 mb-1">18:19</p>
+		</div>
+	</div>
+	<div class="basis-1/2 rounded-lg h-10 bg-green-200 relative mt-4">
+		<p class="ml-2">De Wc is ontstopt</p>
+		<p class="absolute bottom-0 right-0 mr-2 mb-1">20:09</p>
+	</div>
+  <div class="flex justify-end w-full">
+	<div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+		<p class="ml-1">Perfect hopelijk was het niet te ranzig</p>
+		<p class="absolute bottom-0 right-0 mr-4 mb-1">20:18</p>
+	</div>
+</div>
+<div class="flex justify-end w-full">
+	<div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+		<p class="ml-1">stuur de factuur maar</p>
+		<p class="absolute bottom-0 right-0 mr-4 mb-1">20:19</p>
+	</div>
+</div>
+<div class="basis-2/3 rounded-lg  bg-green-200 relative mt-4">
+	<p class="ml-2">De factuur is verstuurd als het goed is krijg je deze gemaild en zie je hem bij je booking tab</p>
+	<p class="absolute bottom-0 right-0 mr-2 mb-1">20:29</p>
+</div>
+
+</div>
 
 <!-- This is the bottom message box -->
-<div class="w-full flex justify-between fixed bottom-0 mx-auto">
+<div class="w-full fixed bottom-0">
 	<footer>
 	<form>
     <label for="chat" class="sr-only">Your message</label>
-    <div class="flex items-center py-2 px-3 bg-gray-50 rounded-lg dark:bg-gray-700">
+    <div class="w-full flex items-center py-2 px-3 bg-gray-50 rounded-lg dark:bg-gray-700">
 		<button type="button" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
 			<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"/><circle cx="12" cy="9" r="2.5"/></svg>
         </button>
