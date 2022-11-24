@@ -7,39 +7,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="../../manifest.webmanifest" />
   <link rel="stylesheet" href="../../dist/output.css" />
-  <script src="../app.js"></script>
 </head>
 
-<body class="flex flex-col items-center w-screen h-screen bg-mrfix_bg">
-  <section class="w-screen h-1/2 bg-mrfix_brown pb-18">
-    <img src="../icons/electrician.avif" alt="electrician at work"
-      class="relative h-max w-max m-auto border-mrfix_dark border-solid border-b-8">
-    <div class="relative bottom-8 mx-auto bg-mrfix_grey w-4/5 h-16 rounded-md opacity-80 mb-10"></div>
-  </section>
-  <section class="flex flex-col items-center h-full w-screen bg-mrfix_brown pb-20 overflow-y-scroll">
-    <div class="flex flex-col justify-center items-center bg-white opacity-50 w-4/5 h-16 rounded-md mb-10
-        hover:scale-105">
-      <a href="job_offer.html#screen1" class="flex justify-center items-center w-full h-full">
-        <h1>Looking for a fixer?</h1>
-      </a>
-    </div>
-    <div class="flex flex-col justify-center items-center bg-white opacity-50 w-4/5 h-16 rounded-md mb-10
-        hover:scale-105">
-      <a href="profile.html" class="flex justify-center items-center w-full h-full">
-        <h1>to the profile page</h1>
-      </a>
-    </div>
-    <div class="flex flex-col justify-center items-center bg-white opacity-50 w-4/5 h-16 rounded-md mb-10
-        hover:scale-105">
-      <a href="message.html" class="flex justify-center items-center w-full h-full">
-        <h1>Messages</h1>
-      </a>
-    </div>
-  </section>
+<body>
+  <div class="flex flex-col p-4 z-10 bg-mrfix_brown">
+    <div class="text-center">Messages</div>
+  </div>
 
-  <footer
+  <div class="flex flex-col">
+    <a href="messenger.html">
+      <div class="p-8 z-20 border-y-4 border-grey-500 relative">
+        <p class="font-bold absolute top-2 left-2 mr-4 mb-1">Duncan loodgieter</p>
+        <p class="absolute text-center">Betaald! Top service dit</p>
+        <p class="absolute right-0 bottom-5 mr-2">20:36</p>
+      </div>
+    </a>
+    <div class="p-8 z-20 border-b-4 border-grey-500 relative">
+      <p class="font-bold absolute top-2 left-2 mr-4 mb-1">Lucas timmerman</p>
+      <p class="absolute text-center">Dankjewel voor de schuur af timmeren</p>
+      <p class="absolute right-0 bottom-5 mr-2">12:25</p>
+    </div></a>
+  </div>
+  <div class="p-8 z-20 border-b-4 border-grey-500 relative">
+    <p class="font-bold absolute top-2 left-2 mr-4 mb-1">Mohammed elektricien</p>
+    <p class="absolute text-center">Perfecte service</p>
+    <p class="absolute right-0 bottom-5 mr-2">11:15</p>
+  </div></a>
+  </div>
+  <div class="p-8 z-20 border-b-4 border-grey-500 relative">
+    <p class="font-bold absolute top-2 left-2 mr-4 mb-1">MrFix support</p>
+    <p class="absolute text-center">de factuur is betaald</p>
+    <p class="absolute right-0 bottom-5 mr-2">10:32</p>
+  </div></a>
+  </div>
+  </div>
+
+  <div
     class="bg-mrfix_brown w-full  h-16 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-40 border-t border-gray-99">
-    <a href="job_offer.html#screen1">
+    <a href="">
       <span
         class="px-2 py-1 cursor-pointer  hover:scale-125 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
         <i class="w-8 fas fa-envelope p-1">
@@ -71,9 +76,6 @@
         <img src="../icons/profile.svg" alt="" class="w-8">
       </span>
     </a>
-  </footer>
+  </div>
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-
 </body>
-
-</html>

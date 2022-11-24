@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="../../manifest.webmanifest" />
+  <link rel="stylesheet" href="../../dist/output.css" />
+</head>
+
+<body>
+  <!-- This is the top navbar -->
+  <div class="flex justify-between p-4 z-10 bg-mrfix_brown">
+    <a href="./message.html">
+      <span><img src="../icons/back_arrow_black.svg" alt="" class="w-8"></span></a>
+    <a class="text-black" href="#">Duncan</a>
+    <a href="#">
+      <span><img src="../icons/more_options_vertical.svg" alt="" class="w-8"></span></a>
+  </div>
+
+  <!-- This is the text bubbels -->
+  <div class="flex flex-wrap">
+    <div class="basis-2/3 rounded-lg h-10 bg-green-200 relative mt-4">
+      <p class="ml-2">Ik ben er over 10 minuten</p>
+      <p class="absolute bottom-0 right-0 mr-2 mb-1">18:03</p>
+    </div>
+    <div class="flex justify-end w-full">
+      <div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+        <p class="ml-1">Perfect dankjewel voor dit communiceren</p>
+        <p class="absolute bottom-0 right-0 mr-4 mb-1">18:19</p>
+      </div>
+    </div>
+    <div class="basis-1/2 rounded-lg h-10 bg-green-200 relative mt-4">
+      <p class="ml-2">De Wc is ontstopt</p>
+      <p class="absolute bottom-0 right-0 mr-2 mb-1">20:09</p>
+    </div>
+    <div class="flex justify-end w-full">
+      <div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+        <p class="ml-1">Perfect hopelijk was het niet te ranzig</p>
+        <p class="absolute bottom-0 right-0 mr-4 mb-1">20:18</p>
+      </div>
+    </div>
+    <div class="flex justify-end w-full">
+      <div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+        <p class="ml-1">stuur de factuur maar</p>
+        <p class="absolute bottom-0 right-0 mr-4 mb-1">20:19</p>
+      </div>
+    </div>
+    <div class="basis-2/3 rounded-lg  bg-green-200 relative mt-4">
+      <p class="ml-2">De factuur is verstuurd als het goed is krijg je deze gemaild en zie je hem bij je booking tab</p>
+      <p class="absolute bottom-0 right-0 mr-2 mb-1">20:29</p>
+    </div>
+    <div class="flex justify-end w-full">
+      <div class="basis-2/3 rounded-lg  bg-blue-400 p-2 relative mt-4">
+        <p class="ml-1">Betaald! Top service dit</p>
+        <p class="absolute bottom-0 right-0 mr-4 mb-1">20:36</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- This is the bottom message box -->
+  <div class="w-full fixed bottom-0">
+    <footer>
+      <form>
+        <label for="chat" class="sr-only">Your message</label>
+        <div class="w-full flex items-center py-2 px-3 bg-gray-50 rounded-lg dark:bg-gray-700">
+          <button type="button"
+            class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+              height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z" />
+              <circle cx="12" cy="9" r="2.5" />
+            </svg>
+          </button>
+          <button type="button"
+            class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <button type="button"
+            class="p-2 text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <textarea id="chat" rows="1"
+            class="block mx-4 p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Your message..."></textarea>
+          <button type="submit"
+            class="inline-flex justify-center p-2 text-blue-600 rounded-full cursor-pointer hover:bg-blue-100 dark:text-blue-500 dark:hover:bg-gray-600">
+            <svg class="w-6 h-6 rotate-90" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </footer>
+  </div>
+</body>
