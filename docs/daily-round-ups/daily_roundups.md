@@ -38,3 +38,11 @@ We hebben ook weer de Figma pagina's uitgebreid met een klussers aanvraag pagina
 Github repository Webapp: https://raymanovich.github.io/deep-dive-mrFix/src/pages/job_offer.html#screen1
 
 Figma: https://www.figma.com/file/mK5i5qAi7S7LLzqLXUA5qw/MrFix-Mobile-design-Figma?node-id=0%3A1&t=CmUs4cdn32xSy6H6-1
+
+### Donderdag 2022-11-24
+
+Status Update: Vandaag hebben we messaging pagina's, landing page, booking pagina en een job accepter page gemaakt. Daarnaast hebben we ui improvements gemaakt en wat bugs gefixed. De coaches hebben al een open staande invite naar de repository.
+
+
+
+Github repository Webapp: https://raymanovich.github.io/deep-dive-mrFix/src/pages/job_offer.html#screen1
