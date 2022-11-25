@@ -10,10 +10,10 @@
   <script src="../app.js"></script>
 </head>
 
-<body class="w-screen h-screen bg-mrfix_bg">
+<body class="flex flex-col justify-end w-screen h-screen bg-mrfix_bg">
 
   <!-- Screen 1 -->
-  <section id="screen1" class="absolute w-full h-full z-0 opacity-0 target:z-10 target:opacity-100">
+  <section id="screen1" class="absolute w-full h-full z-0 hidden target:z-10 target:block">
     <div class="flex justify-evenly w-full my-4">
       <h1 class="font-bold ">What sort of fixer do you need? </h1>
     </div>
@@ -45,7 +45,7 @@
   </section>
 
   <!-- Screen 2 -->
-  <section id="screen2" class="absolute w-full h-full z-0 opacity-0 target:z-10 target:opacity-100">
+  <section id="screen2" class="absolute w-full h-full z-0 hidden target:z-10 target:block">
     <div class="flex justify-evenly w-full my-4">
 		<a href="#screen1"><img src="../icons/back_arrow_black.svg" alt="" class="w-8"></a>
       <h1 class="font-bold ">What sort of job needs fixing?</h1>
@@ -74,7 +74,7 @@
     </main>
   </section>
 
-  <iframe src="../components/navbar.html" seamless="" class="h-16 border-none w-full"></iframe>
+  <iframe src="../components/navbar.html" seamless="" class="h-16 border-none w-full z-10 sticky botom-0"></iframe>
 
 </body>
 

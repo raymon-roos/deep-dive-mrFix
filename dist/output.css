@@ -578,6 +578,10 @@ body {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -724,6 +728,10 @@ body {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-16 {
@@ -896,6 +904,10 @@ body {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .justify-self-end {
@@ -1286,6 +1298,10 @@ body {
 
 .target\:z-10:target {
   z-index: 10;
+}
+
+.target\:block:target {
+  display: block;
 }
 
 .target\:opacity-100:target {
