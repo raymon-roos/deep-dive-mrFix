@@ -13,12 +13,10 @@
     window.onload = () => {
       if (localStorage.getItem('userType') === 'fixer') {
         document.getElementById('jobsTarget').href = '../pages/job_accepter.html#screen1';
-        console.log(document.getElementById('jobsTarget').href);
       }
 
       if (localStorage.getItem('userType') === 'customer') {
         document.getElementById('jobsTarget').href = '../pages/job_offer.html#screen1';
-        console.log(document.getElementById('jobsTarget').href);
       }
     };
 
