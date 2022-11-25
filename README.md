@@ -21,10 +21,11 @@ come up with a suitable design for a mobile app for mrFix
 
 1. clone this repository to a location of your choosing
 2. `npm install`
-3. `npm run tails` to launch the build script
+3. `npm run tails` to have tailwind watch the source files (useful for devlopment)
+4. `npm run build` to run both tailwind and `workbox generateSW` once
 
 ## Dependencies
 
 - [NPM](https://www.npmjs.com/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Bootstrap](https://getbootstrap.com/)
+- [workbox](https://developer.chrome.com/docs/workbox/the-ways-of-workbox/)

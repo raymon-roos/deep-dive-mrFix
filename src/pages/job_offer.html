@@ -7,17 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="../../manifest.webmanifest" />
   <link rel="stylesheet" href="../../dist/output.css" />
+  <script src="../app.js"></script>
 </head>
 
-<body class="w-screen h-screen bg-mrfix_bg">
+<body class="flex flex-col justify-end w-screen h-screen bg-mrfix_bg">
 
   <!-- Screen 1 -->
-  <section id="screen1" class="absolute w-full h-full z-0 opacity-0 target:z-10 target:opacity-100">
+  <section id="screen1" class="absolute w-full h-full z-0 hidden target:z-10 target:block">
     <div class="flex justify-evenly w-full my-4">
       <h1 class="font-bold ">What sort of fixer do you need? </h1>
     </div>
 
-    <main class="grid grid-cols-2 gap-y-8 justify-items-center bg-mrfix_bg">
+    <section class="grid grid-cols-2 gap-y-8 justify-items-center bg-mrfix_bg">
       <div class="flex flex-col justify-center items-center w-24 h-24 rounded-lg border-solid border-2 border-mrfix_brown">
 		<img src="../icons/painter.svg" alt="" class="w-8 fill-white">
         <p>painter</p></div>
@@ -40,17 +41,17 @@
           other
         </div>
       </a>
-    </main>
+    </section>
   </section>
 
   <!-- Screen 2 -->
-  <section id="screen2" class="absolute w-full h-full z-0 opacity-0 target:z-10 target:opacity-100">
+  <section id="screen2" class="absolute w-full h-full z-0 hidden target:z-10 target:block">
     <div class="flex justify-evenly w-full my-4">
 		<a href="#screen1"><img src="../icons/back_arrow_black.svg" alt="" class="w-8"></a>
       <h1 class="font-bold ">What sort of job needs fixing?</h1>
     </div>
 
-    <main class="grid grid-cols-1 gap-y-8 justify-items-center bg-mrfix_bg">
+    <section class="grid grid-cols-1 gap-y-8 justify-items-center bg-mrfix_bg">
       <div class="flex justify-center items-center w-72 h-24 rounded-lg border-solid border-2 border-mrfix_brown">
 		<img src="../icons/toilet.svg" alt="" class="w-8 fill-white">
 		unclog toilet
@@ -70,44 +71,10 @@
       <div class="flex justify-center items-center w-72 h-24 rounded-lg border-solid border-2 border-mrfix_brown">
 		other
       </div>
-    </main>
+    </section>
   </section>
 
-  <footer
-    class="bg-mrfix_brown w-full  h-16 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-40 border-t border-gray-99">
-    <a href="job_offer.html#screen1">
-      <span
-        class="px-2 py-1 cursor-pointer  hover:scale-125 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
-        <i class="w-8 fas fa-envelope p-1">
-        </i>
-        <img src="../icons/request.svg" alt="" class="w-8 fill-white">
-      </span>
-    </a>
-    <a href="">
-      <span
-        class="px-2 py-1 cursor-pointer hover:scale-125 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
-        <i class="w-8 fas fa-envelope p-1">
-        </i>
-        <img src="../icons/booking.svg" alt="" class="w-8">
-      </span>
-    </a>
-    <a href="">
-      <span
-        class="px-2 py-1 cursor-pointer hover:scale-125  hover:text-gray-700 text-sm  flex flex-col items-center text-center">
-        <i class="w-8 fas fa-envelope p-1">
-        </i>
-        <img src="../icons/chat.svg" alt="" class="w-8">
-      </span>
-    </a>
-    <a href="profile.html">
-      <span
-        class="px-2 py-1 cursor-pointer hover:scale-125  hover:text-gray-700 text-sm  flex flex-col items-center text-center">
-        <i class="w-8 fas fa-envelope p-1">
-        </i>
-        <img src="../icons/profile.svg" alt="" class="w-8">
-      </span>
-    </a>
-  </footer>
+  <iframe src="../components/navbar.html" seamless="" class="h-16 border-none w-full z-10 sticky botom-0"></iframe>
 
 </body>
 
