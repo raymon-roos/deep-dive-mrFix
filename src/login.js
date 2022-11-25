@@ -4,11 +4,13 @@ function validateForm() {
 
     if (pass == 'password' && email.length > 0) {
         window.location = './job_offer.html#screen1';
+        localStorage.setItem('userType', 'customer');
         return true;
     }
 
     if (pass == 'fixer' && email.length > 0) {
         window.location = './job_accepter.html#screen1';
+        localStorage.setItem('userType', 'fixer');
         return true;
     }
 
