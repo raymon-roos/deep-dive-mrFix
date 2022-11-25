@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="manifest" href="../../manifest.webmanifest" />
+  <link rel="stylesheet" href="../../dist/output.css" />
+</head>
+
+<body class="w-screen h-screen bg-mrfix_bg relative">
+  <div class="flex justify-between p-4 z-10 bg-mrfix_brown">
+    <a href="job_offer.html#screen2"><img src="../icons/back_arrow_black.svg" alt="" class="w-8"></a>
+    <h1 class="font-bold ">Place order</h1>
+    <a href="#">
+      <span><img src="../icons/more_options_vertical.svg" alt="" class="w-8"></span></a>
+  </div>
+
+  <form class="flex flex-col justify-between items-center flex-wrap w-full px-8 pb-8 bg-white rounded-md">
+    <label for="phone_input" class="font-bold">First name</label>
+    <input type="text" name="phone" value="" id="phone" class="rounded-md border-solid border-2">
+    <label for="surname" class="font-bold">Surname</label>
+    <input type="text" name="email" value="" id="email" class="rounded-md border-solid border-2">
+    <label for="email" class="font-bold">Email</label>
+    <input type="email" name="first_name" value="" id="first_name" class="rounded-md border-solid border-2">
+    <label for="phone" class="font-bold">Phone number</label>
+    <input type="tel" name="surname" value="" id="phone_input" class="rounded-md border-solid border-2">
+    <label for="message" class="font-bold">Detailed Description</label>
+    <textarea rows="4" name="message" id="message" placeholder="Type your Detailed Description of your issue"
+      class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"></textarea>
+    <label class="block mb-2 text-sm font-medium" for="file_input">Upload file</label>
+    <input class=" text-m border rounded-lg cursor-pointer focus:outline-none dark:placeholder-gray-400" id="file_input"
+      type="file">
+    <button type="button" class=" bg-white border-4 hover:bg-gray-100 font-medium rounded-lg">Send</button>
+  </form>
+  <iframe src="../components/navbar.html" seamless="" class="h-16 border-none w-full absolute bottom-0"></iframe>
+</body>
