@@ -1,7 +1,10 @@
 # NOTE: this is the public-facing branch of the project
 
 contents of this branch can be viewed online at:
-> https://raymanovich.github.io/deep-dive-mrFix/src/index.html
+> https://raymanovich.github.io/deep-dive-mrFix/src/pages/login.html
+> customer password = `password`
+> fixer password = `fixer`
+> email can be anything, just not empty
 
 # Welcome to the mrFix mockup prototype project
 
@@ -16,6 +19,16 @@ come up with a suitable design for a mobile app for mrFix
 > - [Gio Todorević](https://github.com/Ssteengohan),
 > - [Sezgin Karaduman](https://github.com/Sezgin3880),
 > - [Raymon Roos](https://github.com/Raymanovich)
+
+### Contributions
+
+ - login, Navbar: Gio Todorević
+ - figma design, profile: Sezgin Karaduman
+ - messaging, create/view job offers, order: Gilbert Adamowicz
+ - profile, create/view job offers, pwa: Raymon Roos
+ - git, project structure: Raymon Roos
+
+ **note: some commits were squashed**
 
 ## Development: 
 
