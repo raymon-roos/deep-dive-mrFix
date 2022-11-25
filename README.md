@@ -17,6 +17,16 @@ come up with a suitable design for a mobile app for mrFix
 > - [Sezgin Karaduman](https://github.com/Sezgin3880),
 > - [Raymon Roos](https://github.com/Raymanovich)
 
+### Contributions
+
+ - login: Gio Todorević
+ - figma design: Sezgin Karaduman
+ - messaging, create/view job offers: Gilbert Adamowicz
+ - profile, create/view job offers: Raymon Roos
+ - git, project structure: Raymon Roos
+
+ ** note: some commits were squashed **
+
 ## Development: 
 
 1. clone this repository to a location of your choosing
