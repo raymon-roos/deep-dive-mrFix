@@ -874,6 +874,15 @@ body {
   width: 1.5rem;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .basis-2\/3 {
   flex-basis: 66.666667%;
 }
