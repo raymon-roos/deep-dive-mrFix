@@ -19,10 +19,10 @@ come up with a suitable design for a mobile app for mrFix
 
 ### Contributions
 
- - login: Gio Todorević
- - figma design: Sezgin Karaduman
- - messaging, create/view job offers: Gilbert Adamowicz
- - profile, create/view job offers: Raymon Roos
+ - login, Navbar: Gio Todorević
+ - figma design, profile: Sezgin Karaduman
+ - messaging, create/view job offers, order: Gilbert Adamowicz
+ - profile, create/view job offers, pwa: Raymon Roos
  - git, project structure: Raymon Roos
 
  ** note: some commits were squashed **
