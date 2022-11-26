@@ -1,17 +1,21 @@
-# NOTE: this is the public-facing branch of the project
-
-contents of this branch can be viewed online at:
-> https://raymanovich.github.io/deep-dive-mrFix/src/pages/login.html
-> customer password = `password`
-> fixer password = `fixer`
-> email can be anything, just not empty
-
 # Welcome to the mrFix mockup prototype project
 
 MrFix is a company providing a service where you can post job listings for any work in and 
 around the home. MrFix will quickly and painlessly connect you with a trustworthy and 
 capable professional. During a one-week project us four students at the Bit Academy will 
-come up with a suitable design for a mobile app for mrFix
+come up with a suitable design for a mobile app for mrFix.
+
+## View online
+
+contents of this branch can be viewed online at:
+>
+> https://raymanovich.github.io/deep-dive-mrFix/src/pages/login.html
+>
+> customer password = `password` 
+>
+> fixer password = `fixer` 
+>
+> email can be anything, just not empty 
 
 ## Meet the team
 
@@ -33,8 +37,8 @@ come up with a suitable design for a mobile app for mrFix
 ## Development: 
 
 1. clone this repository to a location of your choosing
-2. `npm install`
-3. `npm run tails` to have tailwind watch the source files (useful for devlopment)
+2. `npm install` to install the necessary dependencies
+3. `npm run tails` to have tailwind watch the source files (useful for development)
 4. `npm run build` to run both tailwind and `workbox generateSW` once
 
 ## Dependencies
