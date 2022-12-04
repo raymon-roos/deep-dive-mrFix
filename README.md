@@ -9,7 +9,7 @@ come up with a suitable design for a mobile app for mrFix.
 
 contents of this branch can be viewed online at:
 >
-> https://raymanovich.github.io/deep-dive-mrFix/src/pages/login.html
+> https://raymon-roos.github.io/deep-dive-mrFix/src/pages/login.html
 >
 > customer password = `password` 
 >
@@ -22,7 +22,7 @@ contents of this branch can be viewed online at:
 > - [Gilbert Adamowicz](https://github.com/GilbertAdamowicz),
 > - [Gio Todorević](https://github.com/Ssteengohan),
 > - [Sezgin Karaduman](https://github.com/Sezgin3880),
-> - [Raymon Roos](https://github.com/Raymanovich)
+> - [Raymon Roos](https://github.com/raymon-roos)
 
 ### Contributions
 
