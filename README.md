@@ -34,6 +34,16 @@ contents of this branch can be viewed online at:
 
  **note: some commits were squashed**
 
+### Contributions
+
+ - login, Navbar: Gio Todorević
+ - figma design, profile: Sezgin Karaduman
+ - messaging, create/view job offers, order: Gilbert Adamowicz
+ - profile, create/view job offers, pwa: Raymon Roos
+ - git, project structure: Raymon Roos
+
+ **note: some commits were squashed**
+
 ## Development: 
 
 1. clone this repository to a location of your choosing
